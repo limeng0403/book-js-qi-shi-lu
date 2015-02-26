@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    //使用Object()构造函数创建codyA对象
+    var codyA=new Object();
+    codyA.living=true;
+    codyA.age=33;
+    codyA.gender='male';
+    codyA.getGender=function(){
+        return codyA.gender;
+    }
+
+    //输出
+    console.log(codyA);
+
+    /*下面创建了同样的cody对象，但不是使用原生的Object()构造函数创建一次性的cody对象，首先定义自己的Person()构造函数来创建cody对象
+    （或者其他任意Person对象），然后使用“new”关键字进行实例化*/
+    var Person=function(living,age,gender){
+        this.living=living;
+        this.age=age;
+        this.gender=gender;
+        this.getGender=function(){
+            return this.gender;
+        };
+    }
+
+    //输出
+    var codyB=new Person(true,33,'male');
+
+    console.log(codyB);
+</script>
+</body>
+</html>
