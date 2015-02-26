@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83cea65f-9d54-491a-881e-ea1c1f6ee8fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1_3/01_.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1_5/01_FKdsp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1_4/01_GLMr8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1_2/01_YPR6Q.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1_5/02_M9cWA.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1_2/02_cKa3a.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1_1/05_Du5YV.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/limeng.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="DELETED" beforePath="D:\personal\book-js-qi-shi-lu\1_1\123.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1_1/01_ckVA5.html" afterPath="$PROJECT_DIR$/1_1/01_ckVA5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1_1/03_XcfC5.html" afterPath="$PROJECT_DIR$/1_1/03_XcfC5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1_1/04_zQDSw.html" afterPath="$PROJECT_DIR$/1_1/04_zQDSw.html" />
-    </list>
+    <list default="true" id="83cea65f-9d54-491a-881e-ea1c1f6ee8fb" name="Default" comment="" />
     <ignored path="book-js-qi-shi-lu.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
