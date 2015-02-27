@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    //Person是一个构造函数，可以使用new关键字进行实例化
+    var Person=function Person(living,age,gender){
+        //下面的this表示即将创建的新对象（即，this=new Object();）
+        this.living=living;
+        this.age=age;
+        this.gender=gender;
+        this.getGender=function(){
+            return this.gender;
+        }
+        //一旦该Person函数使用new关键字调用，就返回this，而不是undefined
+    }
+
+    //实例化Person对象，命名为cody
+    var cody=new Person(true,33,'male');
+
+    //cody是一个对象，并且是Person()的一个实例
+    console.log(typeof cody);
+    console.log(cody);
+    console.log(cody.constructor);
+</script>
+</body>
+</html>
