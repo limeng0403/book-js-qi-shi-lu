@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    //用户自定义对象构造函数
+    var CustomConstructor=function(){
+        this.foo='bar';
+    }
+
+    //初始化CustomConstructor的实例
+    var instanceOfCustomObject=new CustomConstructor();
+
+    //输出
+    console.log(instanceOfCustomObject instanceof CustomConstructor);
+
+    //输出
+    console.log(new Array('foo') instanceof Array);
+
+    //所有对象都继承自Object()构造函数
+</script>
+</body>
+</html>
